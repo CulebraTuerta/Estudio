@@ -11,7 +11,7 @@
 
 # Ejercicio 2
 # numero = int(input("Ingresa un numero:"))
-# for i in range (1,10,1):
+# for i in range (1,11,1):
 #     print(f"{numero}*{i}={numero*i}")
 
 # Ejercicio 3
@@ -27,11 +27,11 @@
 #     print(numero_de_tres[0],",",numero_de_tres[1],",",numero_de_tres[2])
 
 # Ejercicio 5
-nivel = int(input("Ingresa el nivel del personaje:"))
-damage = int(input("Ingrese el daño base:"))
-for i in range(1,5,1):
-    damage *=1.1
-    print(f"En nivel {i+nivel}, daño: {damage}")
+# nivel = int(input("Ingresa el nivel del personaje:"))
+# damage = int(input("Ingrese el daño base:"))
+# for i in range(1,5,1):
+#     damage *=1.1
+#     print(f"En nivel {i+nivel}, daño: {damage}")
 
 # esto muestra el daño pero con el 10% aplicado en el daño del nivel anterior y no el base, en el caso de un juego
 # es mejor considerar juntar todo el daño base y a eso ponerle los multiplicativos de porcentaje de daño. 
