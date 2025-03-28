@@ -3,7 +3,3 @@
 # Ejercicio 1
 nombre = str(input("Cual es tu nombre?:"))
 print("Hola",nombre,"!!")
-
-
-
-
