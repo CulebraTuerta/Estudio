@@ -39,13 +39,13 @@ while continuar:
         print("Lista de personajes:")
         for i, personaje in enumerate(Lista_personajes,start =1): # Esto repasa toda la lista de personajes que existen
             print(f"{i}. {personaje["nombre"]}") # y muestra solo los nombres
-        opcion= int(input("Seleccione personaje (cero para cerrar) ")) 
+        opcion= int(input("Seleccione personaje (cero para cerrar): ")) 
         if opcion > len(Lista_personajes) or opcion < 0:
             print("Error al selecionar personaje")
         elif opcion == 0:
-            exit
+            continue      # Esto es para salir al menu
         else:               # Al personaje indicado se le muestra todas sus caracteristicas
-            x=Lista_personajes[opcion-1] 
+            x=Lista_personajes[opcion-1]  # Creo una variable unica para destacar al personaje que seleccionamos
             print(f"Personaje: {x["nombre"]}")
             print(f"Raza: {x["tipo"]}")
             print(f"Clase: {x["clase"]}")
