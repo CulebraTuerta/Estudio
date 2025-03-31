@@ -1,6 +1,7 @@
 # Almacenar 10 numeros enteros en una lista, determinar los numeros terminados en 5 y su posicion en la lista. 
 
 lista=[]
+terminados_5=[]
 
 while len(lista)<10:
     nuevo_numero=int(input("Tirate un numero: "))
@@ -12,5 +13,8 @@ for pos,i in enumerate(lista):
             print(f"El numero {i} es divisible por 5, pero no termina en 5")
         else:
             print(f"El numero {i} termina en 5 y esta en la posicion {pos+1}")
+            terminados_5.append(i)
     else:
         print(f"El numero {i} no termina en 5")
+
+print(f"Lista de terminados en 5 {terminados_5}")

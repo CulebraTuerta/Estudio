@@ -5,9 +5,9 @@ cantidad=int(input("Cuantas armas quieres agregar? "))
 contador=0
 
 while contador <cantidad:
-    arma = input("Añade una arma al aresenal: ")
-    arsenal.append(arma)
-    print(f"Tu arsenal incluye: {arsenal}")
+    arma = input(f"Añade arma nº{contador+1} al aresenal: ")
+    arsenal.append(arma)    
     contador+=1
 
-print("Has finalizado el agregar armas")
+print("\nHas finalizado el agregar armas")
+print(f"Tu arsenal incluye: {arsenal}")

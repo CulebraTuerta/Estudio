@@ -42,8 +42,6 @@ while diccionario_habilidades:
         else:
             print("Esa opcion no existe")
 
-
-        
         print(f"\nHabilidades aprendidas {habilidades_aprendidas}")
 
 print("\nNo quedan mas habilidades por aprender o no quedan suficientes puntos")
