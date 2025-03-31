@@ -16,25 +16,35 @@ def crear_personaje(n,v,d,a,df):
 
 def calcular_enfrentamiento(jug,ene):
     while jug["vida"] >0 and ene["vida"]>0:
-        damage_jugador=ene["damage"]*ene["arma"]-jug["defensa"]
-        damage_enemigo=jug["damage"]*jug["arma"]-ene["defensa"]
+        daño_a_jugador=ene["damage"]*ene["arma"]-jug["defensa"]
+        daño_a_enemigo=jug["damage"]*jug["arma"]-ene["defensa"]
 
-        jug["vida"]-=damage_jugador
-        ene["vida"]-=damage_enemigo
+        if daño_a_enemigo<=0:   # esto lo pusimos porque cuando el enemigo hacia daño negativo, se sumaba a la vida del jugador...
+            daño_a_enemigo=0
+        elif daño_a_jugador<=0:
+            daño_a_jugador=0
 
-        print(f"El jugador hizo un daño de {damage_enemigo} y dejo al enemigo con {ene["vida"]} de vida")
-        print(f"El enemigo hizo un daño de {damage_jugador} y dejo al jugador con {jug["vida"]} de vida")
+        jug["vida"]-=daño_a_jugador
+        ene["vida"]-=daño_a_enemigo
+
+        if jug["vida"]<=0:      # con esto hacemos que si la vida baja de cero, entonces que sea cero...
+            jug["vida"]=0
+        elif ene["vida"]<=0:
+            ene["vida"]=0
+
+        print(f"\n{jug["nombre"]} hizo un daño de {daño_a_enemigo} y dejo a {ene["nombre"]} con {ene["vida"]} de vida")
+        print(f"{ene["nombre"]} hizo un daño de {daño_a_jugador} y dejo a {jug["nombre"]} con {jug["vida"]} de vida")
         
         if ene["vida"] <= 0:
-            print(f"Ha muerto {ene["nombre"]}")
+            print(f"\nHa muerto {ene["nombre"]}")
             return jug["nombre"]
         elif jug["vida"] <= 0:
-            print(f"Ha muerto {jug["nombre"]}")
+            print(f"\nHa muerto {jug["nombre"]}")
             return ene["nombre"]
     
 
-jugador=crear_personaje("Tutazon",100,30,2,20)
-enemigo=crear_personaje("Slime",50,30,1,40)
+jugador=crear_personaje("Tutazon",100,20,2,20)
+enemigo=crear_personaje("Slime",60,30,1,5)
 
 ganador=calcular_enfrentamiento(jugador,enemigo)
 print(f"El ganador fue {ganador}")
