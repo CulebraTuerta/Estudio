@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Obtener_Habilidades/1.0.0": {
+        "runtime": {
+          "Obtener_Habilidades.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Obtener_Habilidades/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

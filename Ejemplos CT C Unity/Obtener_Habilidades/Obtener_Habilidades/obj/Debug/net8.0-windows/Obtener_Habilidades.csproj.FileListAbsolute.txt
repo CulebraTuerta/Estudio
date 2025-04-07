@@ -1,0 +1,17 @@
+D:\Python Proyects\Estudio\Ejemplos CT C Unity\Obtener_Habilidades\Obtener_Habilidades\obj\Debug\net8.0-windows\Obtener_Habilidades.Form1.resources
+D:\Python Proyects\Estudio\Ejemplos CT C Unity\Obtener_Habilidades\Obtener_Habilidades\obj\Debug\net8.0-windows\Obtener_Habilidades.csproj.GenerateResource.cache
+D:\Python Proyects\Estudio\Ejemplos CT C Unity\Obtener_Habilidades\Obtener_Habilidades\obj\Debug\net8.0-windows\Obtener_Habilidades.GeneratedMSBuildEditorConfig.editorconfig
+D:\Python Proyects\Estudio\Ejemplos CT C Unity\Obtener_Habilidades\Obtener_Habilidades\obj\Debug\net8.0-windows\Obtener_Habilidades.AssemblyInfoInputs.cache
+D:\Python Proyects\Estudio\Ejemplos CT C Unity\Obtener_Habilidades\Obtener_Habilidades\obj\Debug\net8.0-windows\Obtener_Habilidades.AssemblyInfo.cs
+D:\Python Proyects\Estudio\Ejemplos CT C Unity\Obtener_Habilidades\Obtener_Habilidades\obj\Debug\net8.0-windows\Obtener_Habilidades.csproj.CoreCompileInputs.cache
+D:\Python Proyects\Estudio\Ejemplos CT C Unity\Obtener_Habilidades\Obtener_Habilidades\obj\Debug\net8.0-windows\Obtener_Habilidades.sourcelink.json
+D:\Python Proyects\Estudio\Ejemplos CT C Unity\Obtener_Habilidades\Obtener_Habilidades\bin\Debug\net8.0-windows\Obtener_Habilidades.exe
+D:\Python Proyects\Estudio\Ejemplos CT C Unity\Obtener_Habilidades\Obtener_Habilidades\bin\Debug\net8.0-windows\Obtener_Habilidades.deps.json
+D:\Python Proyects\Estudio\Ejemplos CT C Unity\Obtener_Habilidades\Obtener_Habilidades\bin\Debug\net8.0-windows\Obtener_Habilidades.runtimeconfig.json
+D:\Python Proyects\Estudio\Ejemplos CT C Unity\Obtener_Habilidades\Obtener_Habilidades\bin\Debug\net8.0-windows\Obtener_Habilidades.dll
+D:\Python Proyects\Estudio\Ejemplos CT C Unity\Obtener_Habilidades\Obtener_Habilidades\bin\Debug\net8.0-windows\Obtener_Habilidades.pdb
+D:\Python Proyects\Estudio\Ejemplos CT C Unity\Obtener_Habilidades\Obtener_Habilidades\obj\Debug\net8.0-windows\Obtener_Habilidades.dll
+D:\Python Proyects\Estudio\Ejemplos CT C Unity\Obtener_Habilidades\Obtener_Habilidades\obj\Debug\net8.0-windows\refint\Obtener_Habilidades.dll
+D:\Python Proyects\Estudio\Ejemplos CT C Unity\Obtener_Habilidades\Obtener_Habilidades\obj\Debug\net8.0-windows\Obtener_Habilidades.pdb
+D:\Python Proyects\Estudio\Ejemplos CT C Unity\Obtener_Habilidades\Obtener_Habilidades\obj\Debug\net8.0-windows\Obtener_Habilidades.genruntimeconfig.cache
+D:\Python Proyects\Estudio\Ejemplos CT C Unity\Obtener_Habilidades\Obtener_Habilidades\obj\Debug\net8.0-windows\ref\Obtener_Habilidades.dll
